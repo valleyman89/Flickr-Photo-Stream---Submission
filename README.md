@@ -44,7 +44,7 @@ This is my solution for the [web development flickr task](https://github.com/hol
 
 1. Clone the repo to your preferred directory
    ```bash
-   git clone https://github.com/github_username/repo_name.git
+   gh repo clone valleyman89/Flickr-Photo-Stream---Submission
    ```
 2. Install NPM packages
    ```bash
@@ -66,7 +66,7 @@ This is my solution for the [web development flickr task](https://github.com/hol
 
 Steven Rolph - [@steven_rolph](https://twitter.com/steven_rolph)
 
-GitHub: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+GitHub: [https://github.com/valleyman89/Flickr-Photo-Stream---Submission](https://github.com/valleyman89/Flickr-Photo-Stream---Submission)
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
