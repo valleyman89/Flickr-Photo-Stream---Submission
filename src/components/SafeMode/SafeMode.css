@@ -1,0 +1,13 @@
+.safe-mode-btn {
+  font-size: 2rem;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 100%;
+}
+
+.safe-mode {
+  box-shadow: inset -100px -100px 100px 100px rgba(0, 0, 0, 1);
+}

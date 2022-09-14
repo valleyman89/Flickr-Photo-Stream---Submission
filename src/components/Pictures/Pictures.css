@@ -1,0 +1,14 @@
+/* pictures */
+.pictures {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: space-between;
+  position: relative;
+}
+@media (max-width: 850px) {
+  .pictures {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,81 @@
+/* Modal */
+.modal-background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(12px);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-height: 100vh;
+}
+
+.modal-container {
+  background-color: white;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  height: 66vh;
+  padding: 1rem 0 2rem 0;
+  text-align: center;
+  width: 60vw;
+  overflow: auto;
+}
+
+.modal-container .close {
+  all: unset;
+  text-align: center;
+  text-transform: capitalize;
+}
+.modal-container .close:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .modal-container {
+    max-height: 85vh;
+    overflow: scroll;
+    width: 100vw;
+  }
+}
+.modal-description {
+  background-color: white;
+  padding: 0 2rem;
+}
+
+.modal-description a {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: underline;
+}
+
+.modal-description a:hover {
+  text-decoration: none;
+}
+
+.modal-tags {
+  padding: 1rem 2rem 0 2rem;
+}
+
+.modal-tag {
+  background-color: white;
+  border-radius: 5px;
+  display: inline-block;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 1px solid black;
+  margin: 2px;
+  padding: 0.5rem;
+}
+
+.modal-tag:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
