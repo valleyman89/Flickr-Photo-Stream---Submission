@@ -29,10 +29,15 @@ This is my solution for the [web development flickr task](https://github.com/hol
 - **Tags**
   - I wanted to implement some extra functionality for the tags. When on the picture modal, you can click on a tag and it'll re-render the app to show currently loaded pictures with the same tag. To keep in-line with the wireframe spec, this isn't available on the picture card.
 
-### Issues / Bugs
+### Issues / Bugs / Notes
 
-- **Tests**
-  - running `npm run test` will result in a warning, caused by the use of `React.lazy()`.
+**App**
+
+- I have set development server `proxy` key in `package.json` to overcome any CORS-related issues. The app may not work if deployed to production, so use `npm run start` (development)
+
+**Tests**
+
+- running `npm run test` will result in a warning, caused by the use of `React.lazy()`.
 
 ## Getting Started
 
